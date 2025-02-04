@@ -19,5 +19,5 @@ $f(n)\in o(g(n)) \iff \forall c>0, \exists n_0, \forall n\ge n_0: f(n) < c g(n)$
 
  the little-o definition states that for every positive constant $c$, there exists 
  an $n_0$ such that $f(n) < c g(n)$ for all $n > n_0$. If we take c to equal  1,
- that means $f(n) < 1 g(n) = g(n) \foralln >= n_0$
+ that means $f(n) < 1 g(n) = g(n) \forall n\ge >= n_0$
  This implies the condition for $f(n)\in O(g(n))$
