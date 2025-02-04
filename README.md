@@ -1,4 +1,9 @@
 # Little-o
+I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.
+
+I have used the help of chatGPT to help understand the definitions of big and 
+little O and what it means, I worked it out on my own. I also had to look up the formal
+definition of Big ) to use.
 
 In addition to the big-O, big-$\Omega$, and big-$\Theta$ notation that
 we covered at the beginning of this class, a few other notations are sometimes
