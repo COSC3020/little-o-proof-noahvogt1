@@ -18,7 +18,7 @@ might help with the notation for mathematical expressions.
 $f(n)\in o(g(n)) \iff \forall c>0, \exists n_0, \forall n\ge n_0: f(n) < c g(n)$
 
 We need the definition of Big 0
-$\nf(n)\in O(g(n)) \iff \exists C>0, \exists n_0, \forall n\ge n_0: f(n) \le C g(n)$
+$\n f(n)\in O(g(n)) \iff \exists C>0, \exists n_0, \forall n\ge n_0: f(n) \le C g(n)$
 
  the little-o definition states that for every positive constant $c$, there exists 
  an $n_0$ such that $f(n) < c g(n)$ for all $n > n_0$. If we take c to equal  1,
