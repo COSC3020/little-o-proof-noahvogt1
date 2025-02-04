@@ -27,7 +27,7 @@ We need the definition of Big 0
 $f(n)\in O(g(n)) \iff \exists C>0, \exists n_0, \forall n\ge n_0: f(n) \le C g(n)$
 
  the little-o definition states that for every positive constant $c$, there exists 
- an $n_0$ such that $f(n) < c g(n)$ for all $n \ge n_0$. If we take c to equal  1,
+ an $n_0$ such that $f(n) < c g(n)$ for all $n \ge n_0$. Setting $c=1 \in \forall c > 0$,
  that means $f(n) < 1 g(n) = g(n),  \forall n\ge  n_0$
  This implies $f(n)\in O(g(n))$ keeping $C=1$ and $n_0$ the same. This is because 
  a less than is more strict than a less than or equal to and thus the less than or
